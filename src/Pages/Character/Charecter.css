@@ -1,0 +1,28 @@
+.character_container{
+    width: 50%;
+    margin: auto;
+}
+.loader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.edit_block{
+    display: flex;
+    flex-wrap: wrap;
+}
+.edit_field{
+    background: none;
+    font-size: 25px;
+    border:1px solid rgba(255, 255, 255, 0.45);
+    color: white;
+    display: inline-block;
+    margin-right: 20px;
+}
+@media (max-width: 700px) {
+    .character_container{
+        width: 90%;
+    }
+}
